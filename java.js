@@ -44,7 +44,7 @@ document.getElementById('scrollToTop').onclick = function() {
 
 // Scroll reveal effects
 ScrollReveal({ 
-    distance: '80px',
+    distance: '79px',
     duration: 2000,
     delay: 200
 });
