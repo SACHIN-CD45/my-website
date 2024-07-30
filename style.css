@@ -41,6 +41,7 @@ section{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    box-shadow: 0 0 28px 0 var(--main-color);
    
 }
 
@@ -181,6 +182,7 @@ span{
     border-color: var(--main-color);
     border-radius:   100rem;
     box-shadow: 0 0 3rem var(--main-color);
+    
 }
 .heading{
     font-size: 4.5rem;
@@ -198,6 +200,7 @@ span{
     font-size: 1.5rem;
     margin: 2rem 0 3rem;
 }
+
 .services h2{
     margin-top: 5rem;
 
@@ -500,30 +503,8 @@ span{
 }
 
 
-/* Follow Button Styles */
-.follow-button {
-    margin-left: 1rem; /* Adjust margin as needed */
-}
 
-.follow-button .follow-btn {
-    padding: 1rem 2rem;
-    background-color: var(--main-color);
-    color: var(--second-bg-color);
-    border: none;
-    border-radius: 2rem;
-    font-size: 1.6rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    
-}
 
-.follow-button .follow-btn:hover {
-    background-color: var(--second-bg-color);
-    color: var(--main-color);
-    box-shadow: 0 0 1rem var(--main-color);
-   
-}
 
 
 
