@@ -42,6 +42,8 @@ section{
     align-items: center;
     z-index: 100;
     box-shadow: 0 0 28px 0 var(--main-color);
+    backdrop-filter: blur(40px);
+    border: 2px solid var(--second-bg-color);
    
 }
 
@@ -60,6 +62,7 @@ section{
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
+    
 
 
 }
@@ -84,13 +87,13 @@ section{
     animation: floatImage 5s ease-in-out infinite;
     border: 1rem  inset var(--bg-color);
     border-color: var(--main-color);
-    border-radius:   50rem ;
+    border-radius:   50%;
     box-shadow: 0 0 3rem var(--main-color);
 }
 
 .home-img img:hover{
     color: var(--bg-color);
-    background-color: rgb(252, 252, 248);
+    background-color: rgba(180, 245, 252, 0.804);
     
 }
 
@@ -180,8 +183,9 @@ span{
     animation: floatImage 4s ease-in-out infinite;
     border: 1rem solid var(--bg-color);
     border-color: var(--main-color);
-    border-radius:   100rem;
+    border-radius:   10% 50% 10% 50%/50% 10% 50% 10%;
     box-shadow: 0 0 3rem var(--main-color);
+
     
 }
 .heading{
@@ -355,8 +359,10 @@ span{
     background: var(--second-bg-color);
 
 }
+
 .footer-text p{
     font-size: 1.6rem;
+    color: var(--text-color);
 
 }
 .footer-iconTop i{
