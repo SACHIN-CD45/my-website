@@ -74,6 +74,9 @@ section{
     
     
 }
+.logo img:hover{
+    background-color: rgba(230, 25, 25, 0.328);
+}
 .navbar a{
     font-size: 1.6rem;
     color: var(--text-color);
