@@ -50,12 +50,29 @@ section{
 .header.sticky{
     border-bottom: .1rem solid rgba(0,0,0,.2);
 }
-.logo{
+.logo {
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
 
+}
+.logo a{
+    color: var(--text-color);
+    font-size: 2.5rem;
+    
+}
+.logo img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem var(--main-color);
+    cursor: pointer;
+    filter: brightness(1.2) saturate(1.2) contrast(1.2) ;
+    
+    
 }
 .navbar a{
     font-size: 1.6rem;
